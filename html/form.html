@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+       <head>
+			<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		   <title>
+				Form
+			</title>
+			
+			<!-- below inclusions found on w3schools.com tutorial for including bootstrap.-->
+			
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+			<!-- Popper JS -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+       
+	   </head>
+	   <body>
+			<div class="container-fluid">
+				<h1>
+					Add New Article
+				</h1>
+				<br>
+				<form>
+					<div class="form-group">
+						<h5>Article Title</h5>
+						<input type="text" class="form-control" id="title"  placeholder="Enter Title">
+					</div>
+					<div class="form-group">
+						<h5>Author Name</h5>
+						<input type="text" class="form-control" id="author"  placeholder="Enter Name">
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<h5>Upload Files:</h5>
+							<input type="file" class="form-control-file" id="file">
+						</div>
+						<div class="form-group">
+							<h5>Pages</h5>
+							<select class="form-control" id="page">
+							  <option>Academics</option>
+							  <option>Not Academics</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<h5>Article Text</h5>
+						<textarea class="form-control" id="articleText" rows="8"></textarea>
+					</div>
+					<div class="form-row">
+						<h5><label for="checkBoxes">Select Tags</label></h5>
+						<label for="visibility">Visibility</label>
+					</div>
+					<div class="form-row">
+						<div id="checkBoxes">
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox1">Python</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox2">C++</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox1">Java</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox2">Scala</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+							  <label class="form-check-label" for="inlineCheckbox2">Perl</label>
+							</div>
+						</div>
+						<div id="visibility">
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="visibilityRadio" name="visibilityRadio" class="btn btn-secondary">
+							  <label class="btn btn-secondary" for="visibilityRadio">Public</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" id="customRadioInline2" name="visibilityRadio" class="btn btn-secondary">
+							  <label class="btn btn-secondary" for="customRadioInline2">Private</label>
+							</div>
+						</div>
+					</div>
+					<h5>Login to Finish Submitting</h5>
+					<div class="form-row" id="login">
+						<div class="col">
+						  <input type="text" class="form-control" placeholder="Username">
+						</div>
+						<div class="col">
+						  <input type="password" class="form-control" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" id="rememberMe" value="yes">
+						<label class="form-check-label" for="rememberMe">Remember Me</label>
+					</div>
+					<br>
+					<button type="button" class="btn btn-primary">Submit</button>
+				</form>
+			</div>	   
+	   </body>
+	</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+    <html lang="en">
+       <head>
+			<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		   <title>
+				About Me
+			</title>
+			
+			<!-- below inclusions found on w3schools.com tutorial for including bootstrap.-->
+			
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+			<!-- Popper JS -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+       
+	   </head>
+       <body>
+			<div class="container-fluid">
+			   <h1>
+					Peterson, Ian - <small style="color:grey;font-size:20px;">Software Development Tools and Methods</small>
+				</h1>
+				<div class="card" style="width:100%;background-color:gainsboro;">
+					<p class="card-text">
+						I enjoy playing with videogames, doing coding projects, and tinkering with
+						computer parts/hardware. My favorite animal is a housecat, but I appreciate all
+						animals very much. I get a lot of joy out of planning something, and once it is
+						complete having a finished and tangible product in my hands. I am studying
+						computer science because I think that is is a broad field that is still devdloping, and
+						I enjoy creating and making things. I also get excited at the ideas and creations out
+						of some tech companies, among them the proposed plans from Neuralink I find 
+						particularly interesting and exciting.
+					</p>
+				</div>
+				<br>
+				<img src="../img/profilePicture.jpg" class="rounded-circle" alt="Picture of Ian Peterson" style="width:600px;height:600px;">
+				<br>
+				<h2>
+					My Professional Profile
+				</h2>
+				<a class="btn btn-light" href="https://github.com/Uvecrep" role="button">Github</a>
+				<br>
+				<h3>
+					My Favorite Projects
+				</h3>
+				<table class="table">
+					<tr>
+						<th>Name of the Project</th>
+						<th>Technologies Used</th>
+					</tr>
+					<tr>
+						<td>Wacky Tanks</td>
+						<td>node.js, socket.io, mongoDB</td>
+					</tr>
+					<tr>
+						<td>Pathfinding Experimentation</td>
+						<td>C++</td>
+					</tr>
+					<tr>
+						<td>D&D Group Finder</td>
+						<td>Ionic, html, CSS, JS</td>
+					</tr>
+				</table>
+				<div class="row">
+					<div class="col-sm">
+						<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#dataCountries">
+							Countries Travelled
+						</button>
+						<ul id="dataCountries" class="collapse">
+							<li>
+								United States of America:
+								<ul>
+									<li>
+										Colorado
+									</li>
+									<li>
+										Washington
+									</li>
+									<li>
+										California
+									</li>
+									<li>
+										Texas
+									</li>
+									<li>
+										Utah
+									</li>
+									<li>
+										Wyoming
+									</li>
+									<li>
+										North Dakota
+									</li>
+									<li>
+										South Dakota
+									</li>
+									<li>
+										Florida
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm">
+						<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#dataInterests">
+							My Interests
+						</button>
+						<ol id="dataInterests" class="collapse">
+							<li>
+								Coding
+							</li>
+							<li>
+								Gaming
+							</li>
+							<li>
+								Tinkering
+							</li>
+						</ol>
+					</div>
+				</div>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+					Click me!
+				</button>
+				
+				<!-- Modal -->
+				 <div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+					
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-header">
+						    <h4 class="modal-title">That's all folks!</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+						  <p>(•_•)<br>
+								( •_•)>⌐■-■<br>
+								(⌐■_■)
+							</p>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					  </div>
+					  
+					</div>
+				  </div>
+				
+			</div>
+       </body>
+    </html>
