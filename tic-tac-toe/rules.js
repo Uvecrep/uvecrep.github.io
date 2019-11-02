@@ -140,6 +140,10 @@ function reset_play(){
 	document.getElementById('C2').innerHTML = "C2";
 	document.getElementById('C3').innerHTML = "C3";
 
+	this.turn = 1;
+
+	board_state = [-1,-1,-1,-1,-1,-1,-1,-1,-1];
+
 	return;
 }
 
